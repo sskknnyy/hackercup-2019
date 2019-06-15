@@ -5,30 +5,32 @@
 - 개구리가 존재하지 않는 연잎은 .으로 표시
 - A 개구리는 B 개구리가 하나 이상 옆에 있어야 우측으로 이동 가능.
 - 이때, B 개구리가 한 마리 이상인 경우 뛰어서 빈 자리로 갈 수 없음.
-- B 개구리는 이동할 방향의 연잎이 비어있는 경우 좌측이나 우측으로 이동 가능
+- B 개구리는 이동할 방향의 연잎이 비어있는 경우 좌측이나 우측으로 이동 가능.
+- A 개구리가 맨 우측으로 이동 가능한 경우 Y 출력 / 아닌 경우 N 출력.
+
 
 ## 제약 조건
 - 루프의 개수 T는 1<=T<=500
 - 연잎의 개수 N은 2<=N<=5000
 
 ## Input
-8
-A.
-AB.
-ABB
-A.BB
-A..BB..B
-A.B..BBB.
-AB.........
-A.B..BBBB.BB
+8  
+A.  
+AB.  
+ABB  
+A.BB  
+A..BB..B  
+A.B..BBB.  
+AB.........  
+A.B..BBBB.BB  
 
 
 ## Output
-Case #1: N
-Case #2: Y
-Case #3: N
-Case #4: Y
-Case #5: N
-Case #6: Y
-Case #7: N
-Case #8: Y
+Case #1: N  
+Case #2: Y  
+Case #3: N  
+Case #4: Y  
+Case #5: N  
+Case #6: Y  
+Case #7: N  
+Case #8: Y  
