@@ -8,8 +8,10 @@ def isCheck(line):
 def solution():
 	with open('leapfrog_ch__sample_input.txt', 'r') as f:
 		lines = f.readlines()
+	outfile = open('leapfrog_ch1_output.txt', 'w')
 	for idx, line in enumerate(lines[1:]):
-		print "Case #%d : %s" % (idx + 1, "Y" if isCheck(line.strip()) == True else "N")
+		outfile.write("Case #%d: %s\n" % (idx + 1, "Y" if isCheck(line.strip()) == True else "N"))
+	outfile.close()
 
 def main():
 	solution()
