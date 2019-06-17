@@ -6,7 +6,7 @@ def isCheck(line):
 	return b_count >= 2 and b_count + 1 < len(line) or (b_count == 1 and len(line) == 3)
 
 def solution():
-	with open('leapfrog_ch__sample_input.txt', 'r') as f:
+	with open('leapfrog_ch_.txt', 'r') as f:
 		lines = f.readlines()
 	outfile = open('leapfrog_ch2_output.txt', 'w')
 	for idx, line in enumerate(lines[1:]):
